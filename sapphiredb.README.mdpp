@@ -1,0 +1,80 @@
+# sapphiredb - JS client [![Build Status](https://travis-ci.org/morrisjdev/ng-realtime-database.svg?branch=master)](https://travis-ci.org/morrisjdev/ng-realtime-database)
+
+!INCLUDE "./Shared/Header.mdpp"
+
+## Installation
+
+### Install Package
+To use sapphiredb you have to install the package using npm
+
+In your app folder execute
+
+```
+npm install sapphiredb rxjs axios -S
+```
+
+### Create SapphireDb instance
+
+```js
+var sapphiredb = require('sapphiredb');
+
+var db = new sapphiredb.SapphireDb({
+    serverBaseUrl: 'localhost:5000',
+    useSsl: false,
+    apiKey: 'webapp',
+    apiSecret: 'pw1234'
+});
+
+db.collection('demo.entries').values().subscribe(function (values) {
+    console.log(values);
+});
+```
+
+#### Use websockets on NodeJs
+
+sapphiredb also works in a NodeJs application. It will use polling as communication strategy by default.
+If you want to use websockets you have to install an external library for that.
+
+##### Example
+```
+npm install ws -S
+```
+
+```js
+var sapphiredb = require('sapphiredb');
+
+var ws = require('ws');
+WebSocket = ws;
+
+var db = new sapphiredb.SapphireDb({
+    serverBaseUrl: 'localhost:5000',
+    useSsl: false,
+    apiKey: 'webapp',
+    apiSecret: 'pw1234'
+});
+
+db.collection('demo.entries').values().subscribe(function (values) {
+    console.log(values);
+});
+```
+
+## Compatibility
+
+| Browser/Engine       | Websocket          | SSE                | Polling            |
+|----------------------|--------------------|--------------------|--------------------|
+| Chrome               | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Firefox              | :heavy_check_mark: | :x:                | :heavy_check_mark: |
+| Opera                | :heavy_check_mark: | :x:                | :heavy_check_mark: |
+| Edge                 | :heavy_check_mark: | :x:                | :heavy_check_mark: |
+| Internet Explorer 11 | :heavy_check_mark: | :x:                | :heavy_check_mark: |
+| NodeJs               | :heavy_check_mark: | :x:                | :heavy_check_mark: |
+
+### Technology support
+
+JS, NodeJs, Svelte ...
+
+## Examples
+
+!INCLUDE "./Examples/sapphiredb-js.mdpp"
+
+!INCLUDE "./Shared/Footer.mdpp"

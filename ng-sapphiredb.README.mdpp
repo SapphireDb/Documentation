@@ -1,0 +1,39 @@
+# ng-sapphiredb - Angular client [![Build Status](https://travis-ci.org/morrisjdev/ng-realtime-database.svg?branch=master)](https://travis-ci.org/morrisjdev/ng-realtime-database)
+
+!INCLUDE "./Shared/Header.mdpp"
+
+## Installation
+
+### Install Package
+To use ng-sapphiredb you have to install the package using npm
+
+In your angular app folder execute
+
+```
+npm install ng-sapphiredb sapphiredb axios -S
+```
+
+### Import SapphireDbModule in your app.module
+
+```
+imports: [
+    BrowserModule,
+    SapphireDbModule,
+]
+```
+
+## Browser compatibility
+
+| Browser              | Websocket          | SSE                | Polling            |
+|----------------------|--------------------|--------------------|--------------------|
+| Chrome               | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Firefox              | :heavy_check_mark: | :x:                | :heavy_check_mark: |
+| Opera                | :heavy_check_mark: | :x:                | :heavy_check_mark: |
+| Edge                 | :heavy_check_mark: | :x:                | :heavy_check_mark: |
+| Internet Explorer 11 | :heavy_check_mark: | :x:                | :heavy_check_mark: |
+
+# Example
+
+!INCLUDE "./Examples/ng-sapphiredb.mdpp"
+
+!INCLUDE "./Shared/Footer.mdpp"

@@ -1,0 +1,21 @@
+# sapphiredb / ng-sapphiredb [![Build Status](https://travis-ci.org/morrisjdev/ng-realtime-database.svg?branch=master)](https://travis-ci.org/morrisjdev/ng-realtime-database)
+
+!INCLUDE "./Shared/Header.mdpp"
+
+## Packages
+
+This repository contains the sources of sapphiredb and ng-sapphiredb.
+
+[sapphiredb](./projects/sapphiredb/README.md) (client for JS, NodeJs, Svelte ...)
+
+[ng-sapphiredb](./projects/ng-sapphiredb/README.md) (client for Angular)
+
+## Examples
+
+[Svelte Example](https://github.com/SapphireDb/Example-Svelte)
+
+[NodeJs Example](https://github.com/SapphireDb/Example-NodeJs)
+
+[Angular Example](https://github.com/SapphireDb/Example-Angular)
+
+!INCLUDE "./Shared/Footer.mdpp"

@@ -1,0 +1,7 @@
+!INCLUDE "./Server/Title.mdpp"
+
+!INCLUDE "./Shared/Header.mdpp"
+
+!INCLUDE "./Server/Content.mdpp"
+
+!INCLUDE "./Shared/Footer.mdpp"
