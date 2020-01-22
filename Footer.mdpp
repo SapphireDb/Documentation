@@ -1,0 +1,19 @@
+## Documentation
+
+Check out the documentation for more details: [Documentation](https://sapphire-db.com/)
+
+## Implementations
+
+### Server
+
+[SapphireDb - Server for Asp.Net Core](https://github.com/morrisjdev/SapphireDb)
+
+### Client
+
+[sapphiredb - JS client](https://github.com/SapphireDb/sapphiredb-js/blob/master/projects/sapphiredb/README.md)
+
+[ng-sapphiredb - Angular client](https://github.com/SapphireDb/sapphiredb-js/blob/master/projects/ng-sapphiredb/README.md)
+
+## Author
+
+[Morris Janatzek](http://morrisj.net) ([morrisjdev](https://github.com/morrisjdev))
