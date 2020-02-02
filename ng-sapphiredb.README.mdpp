@@ -34,6 +34,6 @@ imports: [
 
 # Example
 
-!INCLUDE "./Examples/ng-sapphiredb.mdpp"
+!INCLUDE "./ExamplesLinks/ng-sapphiredb.mdpp"
 
 !INCLUDE "./Shared/Footer.mdpp"

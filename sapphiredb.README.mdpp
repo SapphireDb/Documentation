@@ -75,6 +75,6 @@ JS, NodeJs, React, Svelte ...
 
 ## Examples
 
-!INCLUDE "./Examples/sapphiredb-js.mdpp"
+!INCLUDE "./ExamplesLinks/sapphiredb-js.mdpp"
 
 !INCLUDE "./Shared/Footer.mdpp"
