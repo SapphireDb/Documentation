@@ -12,10 +12,6 @@ This repository contains the sources of sapphiredb and ng-sapphiredb.
 
 ## Examples
 
-[Svelte Example](https://github.com/SapphireDb/Example-Svelte)
-
-[NodeJs Example](https://github.com/SapphireDb/Example-NodeJs)
-
-[Angular Example](https://github.com/SapphireDb/Example-Angular)
+!INCLUDE "./ExamplesLinks/All.mdpp"
 
 !INCLUDE "./Shared/Footer.mdpp"

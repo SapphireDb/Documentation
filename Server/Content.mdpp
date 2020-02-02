@@ -53,10 +53,4 @@ public class Startup
 
 ## Examples
 
-### Server
-
-[AspNet Core Example](https://github.com/SapphireDb/Example-AspNetCore)
-
-### Client
-
-!INCLUDE "../ExamplesLinks/All.mdpp"
+!INCLUDE "../Server/Examples.mdpp"

@@ -1,0 +1,12 @@
+!INCLUDE "../../Shared/Banner.mdpp"
+
+This is a demo project for SapphireDb. It should demonstrate how to use SapphireDb with different technologies.
+
+The examples contains a simple CRUD demo and a simple chat.
+
+You don't need to set up a server running SapphireDb to try it out.
+A demo server can be reached at the following address: https://sapphiredb-demo.azurewebsites.net/
+
+## Try it out
+
+You can try out this example by following these steps: 

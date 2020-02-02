@@ -1,0 +1,15 @@
+# SapphireDb: Example-Angular (using ng-sapphiredb)
+
+**Example angular application using SapphireDb** 
+
+!INCLUDE "./Examples/Shared/Intro.mdpp"
+
+1. [Open in StackBlitz](https://stackblitz.com/github/SapphireDb/Example-Angular)
+
+or
+
+1. Clone the sources and switch to the directory
+2. Run `npm install`
+3. Run `ng serve` and navigate to [http://localhost:4200](http://localhost:4200)
+
+!INCLUDE "./Examples/Shared/Footer.mdpp"
