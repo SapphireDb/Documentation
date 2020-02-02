@@ -1,0 +1,15 @@
+# SapphireDb: Example-Svelte (using sapphiredb)
+
+**Example React application using SapphireDb** 
+
+!INCLUDE "./Examples/Shared/Intro.mdpp"
+
+1. [Open in StackBlitz](https://stackblitz.com/github/SapphireDb/Example-React)
+
+or
+
+1. Clone the sources and switch to the directory
+2. Run `npm install`
+3. Run `npm run start` and navigate to [http://localhost:3000](http://localhost:3000)
+
+!INCLUDE "./Examples/Shared/Footer.mdpp"
