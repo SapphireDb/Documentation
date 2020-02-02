@@ -1,0 +1,15 @@
+# SapphireDb: Example-NodeJs (using sapphiredb)
+
+**Example NodeJs application using SapphireDb** 
+
+!INCLUDE "./Examples/Shared/Intro.mdpp"
+
+1. [Open in repl.it](https://repl.it/github/SapphireDb/Example-NodeJs)
+
+or
+
+1. Clone the sources and switch to the directory
+2. Run `npm install`
+3. Run `npm start`
+
+!INCLUDE "./Examples/Shared/Footer.mdpp"

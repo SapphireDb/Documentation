@@ -7,3 +7,4 @@ markdown-pp ./Server/sapphiredb-nohtml.README.mdpp -o ../SapphireDb/README-NUGET
 
 markdown-pp ./Examples/Angular.README.mdpp -o ../Examples/Example-Angular/README.md
 markdown-pp ./Examples/AspNetCore.README.mdpp -o ../Examples/Example-AspNetCore/README.md
+markdown-pp ./Examples/NodeJs.README.mdpp -o ../Examples/Example-NodeJs/README.md
