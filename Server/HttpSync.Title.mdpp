@@ -1,0 +1,5 @@
+# SapphireDb.HttpSync - Http sync module for SapphireDb
+
+SapphireDb supports running in multiple instances. Each instance will synchronize with the other instances using different mechanisms.
+
+If you only have a predefined (and small) number of instances and don't need dynamic scaling you can use this option. SapphireDb will sync changes through a http-interface and send them to all other known instances.

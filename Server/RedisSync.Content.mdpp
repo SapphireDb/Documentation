@@ -1,0 +1,28 @@
+## Installation
+
+### Install package
+To install the package execute the following command in your package manager console
+
+````
+PM> Install-Package SapphireDb.RedisSync
+````
+
+You can also install the extension using Nuget package manager. The project can be found here: [https://www.nuget.org/packages/SapphireDb.RedisSync/](https://www.nuget.org/packages/SapphireDb.RedisSync/)
+
+### Register services
+
+To use the SapphireDb.RedisSync you have to make some changes in your `Startup.cs`-File.
+
+````csharp
+public class Startup
+{
+  public void ConfigureServices(IServiceCollection services)
+  {
+    RedisSyncConfiguration redisSyncConfiguration = new RedisSyncConfiguration(Configuration.GetSection("RedisSync"));
+    
+    services.AddSapphireDb(...)
+      .AddContext<MyDbContext>(cfg => ...)
+      .AddRedisSync(redisSyncConfguraiton);
+  }
+}
+````

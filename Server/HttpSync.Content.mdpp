@@ -1,0 +1,35 @@
+## Installation
+
+### Install package
+To install the package execute the following command in your package manager console
+
+````
+PM> Install-Package SapphireDb.HttpSync
+````
+
+You can also install the extension using Nuget package manager. The project can be found here: [https://www.nuget.org/packages/SapphireDb.HttpSync/](https://www.nuget.org/packages/SapphireDb.HttpSync/)
+
+### Register services and update pipeline
+
+To use the SapphireDb.HttpSync you have to make some changes in your `Startup.cs`-File.
+
+````csharp
+public class Startup
+{
+  public void ConfigureServices(IServiceCollection services)
+  {
+    HttpSyncConfiguration httpSyncConfiguration = new HttpSyncConfiguration(Configuration.GetSection("HttpSync"));
+
+    services.AddSapphireDb(...)
+      .AddContext<MyDbContext>(cfg => ...)
+      .AddHttpSync(httpSyncConfiguration);
+  }
+
+  public void Configure(IApplicationBuilder app)
+  {
+    //Add Middleware
+    app.UseSapphireDb();
+    app.UseSapphireHttpSync();
+  }
+}
+````

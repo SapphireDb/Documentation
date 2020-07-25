@@ -5,6 +5,9 @@ markdown-pp ./ng-sapphiredb.README.mdpp -o ../sapphiredb-js/projects/ng-sapphire
 markdown-pp ./Server/sapphiredb.README.mdpp -o ../SapphireDb/README.md
 markdown-pp ./Server/sapphiredb-nohtml.README.mdpp -o ../SapphireDb/README-NUGET.md
 
+markdown-pp ./Server/SapphireDb.RedisSync.README.mdpp -o ../SapphireDb/SapphireDb.RedisSync/README.md
+markdown-pp ./Server/SapphireDb.HttpSync.README.mdpp -o ../SapphireDb/SapphireDb.HttpSync/README.md
+
 markdown-pp ./Examples/Angular.README.mdpp -o ../Examples/Example-Angular/README.md
 markdown-pp ./Examples/AspNetCore.README.mdpp -o ../Examples/Example-AspNetCore/README.md
 markdown-pp ./Examples/NodeJs.README.mdpp -o ../Examples/Example-NodeJs/README.md

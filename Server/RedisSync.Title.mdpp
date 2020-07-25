@@ -1,0 +1,7 @@
+# SapphireDb.RedisSync - Redis sync module for SapphireDb
+
+SapphireDb supports running in multiple instances. Each instance will synchronize with the other instances using different mechanisms.
+
+If you want to scale dynamically you don't know the instances in advance. You therefor need a kind of message broker that distributes changes to all application instances. 
+
+SapphireDb.RedisSync provides functionality that uses Redis to achieve this goal.

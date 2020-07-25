@@ -1,0 +1,5 @@
+!INCLUDE "./Server/HttpSync.Title.mdpp"
+
+!INCLUDE "./Server/HttpSync.Content.mdpp"
+
+!INCLUDE "./Shared/Footer.mdpp"

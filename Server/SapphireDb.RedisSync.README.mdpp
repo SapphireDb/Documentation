@@ -1,0 +1,5 @@
+!INCLUDE "./Server/RedisSync.Title.mdpp"
+
+!INCLUDE "./Server/RedisSync.Content.mdpp"
+
+!INCLUDE "./Shared/Footer.mdpp"
